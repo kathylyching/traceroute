@@ -155,7 +155,7 @@ def get_route(hostname):
                     #You should add your responses to your lists here and return your list if your destination IP is met
                     tracelis1.append(bytes)
                     tracelist2.append(tracelist1)
-                    if packetID == IPPROTO_IP:
+                    if packetID == ID:
                         return tracelist2
                     #Fill in end
                 else:
